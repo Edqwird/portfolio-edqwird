@@ -2559,6 +2559,7 @@ img, video {
     /* 1 слайд */
     .title {
         height: 60vh;
+        overflow-y: hidden;
     }
     #abinfo {
         width: 390px;
@@ -2602,6 +2603,7 @@ img, video {
 
     .title_two {
         height: 60vh;
+        overflow-y: hidden;
     }
     .info {
         height: 100vh;
@@ -2678,6 +2680,7 @@ img, video {
 
     /* 3 слайд */
     .title_three {
+        overflow-y: hidden;
         margin-top: 100px;
         height: 70vh;
     }
@@ -2777,6 +2780,7 @@ img, video {
     /* 4 слайд  */
 
     .title_four {
+        overflow-y: hidden;
         margin-top: 0px;
         height: 80vh;
     }
@@ -2861,6 +2865,7 @@ img, video {
     /* 5 слайд  */
 
     .title_fife {
+        overflow-y: hidden;
         height: 100vh;
         margin-top: 100px;
     }
@@ -2966,6 +2971,7 @@ img, video {
     /* последний слайд */
 
     .title_six {
+        overflow-y: hidden;
         margin-top: 00px;
     }
 
