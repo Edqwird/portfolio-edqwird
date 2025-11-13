@@ -2461,67 +2461,18 @@ html {
 
 /* ФОНЫ */
 @font-face {
-font-family: "Helvetice";  
-src: url("/src/fonts/Helvetice/HelveticaNeueLTW1G-Blk.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
+  font-family: "undo";  
+  src: url("../fonts/unbo/unbounded-semibold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
 
- @font-face {
-font-family: "Anton";  
-src: url("/src/fonts/Anton_SC/AntonSC-Regular.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "Oswald";  
-src: url("/src/fonts/Oswald/Oswald-VariableFont_wght.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "Alum";  
-src: url("/src/fonts/Alumni/AlumniSansSC-VariableFont_wght.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "Robot";  
-src: url("/src/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "undo";  
-src: url("/src/fonts/unbo/Unbounded-SemiBold.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "undo1";  
-src: url("/src/fonts/unbo/Unbounded-ExtraLight.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "grop";  
-src: url("/src/fonts/grop/Gropled-Bold.otf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
- @font-face {
-font-family: "kontra";  
-src: url("/src/fonts/kontr/Kontrabanda.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
+@font-face {
+  font-family: "undo1";  
+  src: url("../fonts/unbo/unbounded-extralight.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
 
 
 
