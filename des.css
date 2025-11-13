@@ -6,6 +6,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-y: scroll;
 }
 
 html {
@@ -249,7 +250,8 @@ html {
     display: flex;
     justify-content: top;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     flex-direction: column;
 }
 
@@ -472,7 +474,8 @@ html {
 
 .title_three {
     display: flex;    
-    height: 80vh;
+    min-height: 100vh;
+    height: auto;
     flex-direction: column;
 }
 
@@ -731,7 +734,8 @@ html {
 .title_four {
     display: flex;
     margin-top: 350px;    
-    height: 70vh;
+    min-height: 100vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
