@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Реалистичная машина по дороге</title>
+<style>
+  .cool-input {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  width: 100%;
+  position: relative;
+
+  font-size: 16px;
+}
+
+.cool-input__input {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.5em;
+  background: none;
+  width: 100%;
+  padding: 1.2em 1em 0.8em;
+  position: relative;
+  z-index: 2;
+  font-size: 1em;
+}
+.cool-input__input:focus {
+  outline: none;
+}
+
+.cool-input__placeholder {
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  padding-left: 1em;
+  left: 0;
+  top: 50%;
+  line-height: 1em;
+  margin-top: -0.5em;
+  color: #777;
+  transition: all 0.2s ease;
+}
+
+.cool-input__input_filled + .cool-input__placeholder,
+.cool-input__input:focus + .cool-input__placeholder {
+  font-size: 0.8em;
+  top: 0;
+  margin-top: 0.1em;
+}
+
+</style>
+</head>
+<body>
+
+<div class="cool-input">
+    <input class="cool-input__input"/>
+    <span class="cool-input__placeholder">Имя</span>
+</div>
+
+<script>
+  $('.cool-input__input').on('input', function(){
+    var $this = $(this);
+    if ($this.val() == '') {
+        $this.removeClass('cool-input__input_filled');
+    } else {
+        $this.addClass('cool-input__input_filled');
+    }
+});
+</script>
+
+</body>
+</html>
