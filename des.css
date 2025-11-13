@@ -2675,7 +2675,7 @@ img, video {
     /* 3 слайд */
     .title_three {
         margin-top: 100px;
-        height: 80vh;
+        height: 70vh;
     }
     #board_two {
         height: 100vh;
@@ -2773,11 +2773,11 @@ img, video {
     /* 4 слайд  */
 
     .title_four {
-        margin-top: 50px;
+        margin-top: 0px;
         height: 80vh;
     }
     #board_three {
-        margin-top: 50px;
+        margin-top: 0px;
         border-radius: 60px 60px 0px 0px;
     }
 
@@ -2786,6 +2786,7 @@ img, video {
         font-size: 40px;
     }
     #info_skill {
+        width: 400px;
         font-size: 12px;
         flex-wrap: wrap;
         margin-top: 40px;
@@ -2857,17 +2858,18 @@ img, video {
 
     .title_fife {
         height: 100vh;
+        margin-top: 100px;
     }
 
-    .forms {
-        margin-top: 80px;
-    }
+    /* .forms {
+        margin-top: -300px;
+    } */
 
     .forms-label {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        height: 100vh;
         gap: -300px;
     }
 
@@ -2875,6 +2877,7 @@ img, video {
     #contacts {
         margin-top: 80px;
         font-size: 37px;
+        display: none;
     }
 
     #fo-text {
@@ -2959,7 +2962,7 @@ img, video {
     /* последний слайд */
 
     .title_six {
-        margin-top: 50px;
+        margin-top: 00px;
     }
 
     #board_fife {
